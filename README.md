@@ -12,7 +12,7 @@ Set up and manage continuous integration and continuous delivery systems to auto
 ## QA Engineer
 Ensures that software products are reliable, bug-free, and meet user expectations before they’re released.
 
-# Technology stack
+# Technology Stack
 ### Django
 A high-level Python web framework used for building the RESTful API.
 ### Django REST Framework
