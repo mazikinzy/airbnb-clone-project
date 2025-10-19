@@ -83,39 +83,39 @@ Caching: *Use caching strategies to reduce database load and improve performance
 Securing a booking system API is essential to protect user data, ensure system integrity, and maintain trust.  
 Here are the key security measures and why each is crucial.
 **Authentication and Authorization**  
-Verifying user identity (authentication) and controlling access based on roles (authorization).  
-Prevents unauthorized users from accessing sensitive endpoints like booking creation, cancellation, or admin dashboards.
+*Verifying user identity (authentication) and controlling access based on roles (authorization).*  
+*Prevents unauthorized users from accessing sensitive endpoints like booking creation, cancellation, or admin dashboards.*
 
 **Input Validation and Sanitization**  
-Ensuring all incoming data (e.g., booking dates, user info) is clean and conforms to expected formats.  
-Protects against injection attacks (e.g., SQL injection) and data corruption.
+*Ensuring all incoming data (e.g., booking dates, user info) is clean and conforms to expected formats.*  
+*Protects against injection attacks (e.g., SQL injection) and data corruption.*
 
 **Rate Limiting and Throttling**  
-Restricting the number of requests a user or IP can make in a given time.  
-Prevents abuse, denial-of-service (DoS) attacks, and brute-force attempts on login or booking endpoints.
+*Restricting the number of requests a user or IP can make in a given time.*  
+*Prevents abuse, denial-of-service (DoS) attacks, and brute-force attempts on login or booking endpoints.*
 
 **Secure API Key Management**  
-Safeguarding API keys using tools like AWS Secrets Manager, rotating keys regularly, and avoiding hardcoding.  
-Compromised keys can lead to unauthorized access and data breaches.
+*Safeguarding API keys using tools like AWS Secrets Manager, rotating keys regularly, and avoiding hardcoding.*  
+*Compromised keys can lead to unauthorized access and data breaches.*
 
 **Data Encryption (TLS & at rest)**  
-Encrypting data during transmission (TLS 1.3+) and while stored (AES-256).  
-Ensures confidentiality of sensitive data like payment details and personal information.
+*Encrypting data during transmission (TLS 1.3+) and while stored (AES-256).*  
+*Ensures confidentiality of sensitive data like payment details and personal information.*
 
 **Role-Based Access Control (RBAC)**  
-Assigning permissions based on user roles (e.g., guest, admin, staff).  
-Limits exposure of critical operations and data to only authorized personnel.
+*Assigning permissions based on user roles (e.g., guest, admin, staff).*  
+*Limits exposure of critical operations and data to only authorized personnel.*
 
-**Logging and Monitoring**
-Tracking API usage, login attempts, and suspicious behaviour.  
-Enables early detection of breaches, misuse, and performance issues.
+**Logging and Monitoring**  
+*Tracking API usage, login attempts, and suspicious behaviour.*  
+*Enables early detection of breaches, misuse, and performance issues.*
 
 **Error Handling and Response Management**  
-Avoiding detailed error messages that reveal system internals.  
-Prevents attackers from gaining insights into API structure or vulnerabilities.
+*Avoiding detailed error messages that reveal system internals.*  
+*Prevents attackers from gaining insights into API structure or vulnerabilities.*
 
 **Security Testing and Audits**  
-Regular penetration testing, code reviews, and vulnerability scans.  
-Identifies and fixes security gaps before they’re exploited.  
+*Regular penetration testing, code reviews, and vulnerability scans.*  
+*Identifies and fixes security gaps before they’re exploited.*  
 
 These measures will collectively ensure that the booking system is resilient against threats, compliant with data protection regulations, and trusted by users.
