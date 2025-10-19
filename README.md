@@ -20,6 +20,13 @@ Provides tools for creating and managing RESTful APIs.
 ### PostgreSQL
 A powerful relational database used for data storage.
 ### GraphQL
+
+# Database Design
+## Users
+## Properties
+## Bookings
+## Reviews
+## Payments
 Allows for flexible and efficient querying of data.
 ### Celery
 For handling asynchronous tasks such as sending notifications or processing payments.
