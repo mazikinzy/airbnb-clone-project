@@ -129,9 +129,9 @@ Ensuring stability: *Automated tests catch bugs before they reach users.*
 Speeding up updates: *New features (e.g., calendar views, payment options) can be deployed quickly and safely.*  
 Reducing downtime: *Rollbacks and hotfixes can be applied swiftly if issues arise.*  
 Supporting scalability: *As traffic grows, CI/CD ensures consistent performance across environments.*  
-Improving collaboration: *Developers can work in parallel without breaking the system.*  
+Improving collaboration: *Developers can work in parallel without breaking the system.*
 
-**Tools for CI/CD Pipeline**  
+>**Tools for CI/CD Pipeline**  
 GitHub Actions  |  *CI/CD workflows integrated with GitHub*  
 GitLab CI/CD    |  *Full DevOps platform with built-in CI/CD*  
 Jenkins         |  *Highly customizable open-source CI/CD*  
