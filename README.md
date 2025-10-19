@@ -41,12 +41,27 @@ Represents customers or property owners.
 *password_hash*  
 *role (e.g., guest, host, admin)*
 
->**Relationships:**  
-*A user can own multiple properties (if they are a host).*
-*A user can make multiple bookings.*
+**Relationships:**  
+>*A user can own multiple properties (if they are a host).*  
+*A user can make multiple bookings.*  
 *A user can write multiple reviews.*
 
 ### **Properties**
+Represents hotels, apartments, or rooms available for booking.  
+
+**Key Fields**  
+>*property_id (Primary Key)*  
+*owner_id (Foreign Key → Users)*  
+*name*  
+*location*  
+*description*  
+
+**Relationships**  
+>*A property is owned by one user (host).*
+*A property can have multiple rooms.*  
+*A property can have multiple bookings.*  
+*A property can have multiple reviews.*
+>
 ### **Bookings**
 ### **Reviews**
 ### **Payments**
