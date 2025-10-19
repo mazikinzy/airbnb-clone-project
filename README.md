@@ -122,7 +122,7 @@ Here are the key security measures and why each is crucial.
 These measures will collectively ensure that the booking system is resilient against threats, compliant with data protection regulations, and trusted by users.
 
 # CI/CD Pipeline
-A Continuous Integration and Continuous Delivery/Deployment(CI/CD) pipeline is an automated workflow that helps developers integrate code changes, test them, and deploy software reliably and efficiently.  
+A Continuous Integration and Continuous Delivery/Deployment (CI/CD) pipeline is an automated workflow that helps developers integrate code changes, test them, and deploy software reliably and efficiently.  
 A booking system handles real-time reservations, payments, and user data, so reliability and speed are essential.
 
 **CI/CD pipelines help by:**  
