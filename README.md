@@ -132,6 +132,7 @@ Reducing downtime: *Rollbacks and hotfixes can be applied swiftly if issues aris
 Supporting scalability: *As traffic grows, CI/CD ensures consistent performance across environments.*  
 Improving collaboration: *Developers can work in parallel without breaking the system.*
 
+---
 >**Tools for CI/CD Pipeline**  
 GitHub Actions  |  *CI/CD workflows integrated with GitHub*  
 GitLab CI/CD    |  *Full DevOps platform with built-in CI/CD*  
@@ -140,3 +141,4 @@ CircleCI        |  *Fast, cloud-based CI/CD for modern teams*
 Travis CI       |  *Simple CI for GitHub projects*  
 Docker          |  *Containerization for consistent deployments*  
 Kubernetes      |  *Orchestration for scalable deployments*
+---
