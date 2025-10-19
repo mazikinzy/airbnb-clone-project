@@ -79,8 +79,32 @@ Represents a reservation made by a user.
 *A booking can have one payment.*
 >
 ### **Reviews**
-### **Payments**
+User feedback on properties.
 
+**Key Fields**  
+>*review_id (Primary Key)*  
+*user_id (Foreign Key → Users)*  
+*property_id (Foreign Key → Properties)*  
+*rating (1–5)*  
+*comment*
+>
+**Relationships**
+>*A review is written by one user.*  
+*A review is about one property.*
+>
+### **Payments**
+Tracks financial transactions for bookings.
+
+**Key Fields**  
+>*payment_id (Primary Key)*  
+*booking_id (Foreign Key → Bookings)*  
+*amount*  
+*payment_method (e.g., card, PayPal)*  
+*payment_status (e.g., paid, pending)*
+>
+**Relationships**  
+>*A payment is linked to one booking.*
+>
 # Feature Breakdown
 ### **API Documentation**
 **OpenAPI Standard**  
