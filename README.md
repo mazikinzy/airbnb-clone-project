@@ -81,7 +81,8 @@ Caching: *Use caching strategies to reduce database load and improve performance
 
 # API Security
 Securing a booking system API is essential to protect user data, ensure system integrity, and maintain trust.  
-Here are the key security measures and why each is crucial.
+Here are the key security measures and why each is crucial.  
+
 **Authentication and Authorization**  
 *Verifying user identity (authentication) and controlling access based on roles (authorization).*  
 *Prevents unauthorized users from accessing sensitive endpoints like booking creation, cancellation, or admin dashboards.*
