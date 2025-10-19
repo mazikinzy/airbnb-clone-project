@@ -36,10 +36,12 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 # Feature Breakdown
 ### **API Documentation**
-**OpenAPI Standard** is a widely adopted specification for describing RESTful APIs in a machine-readable format using JSON or YAML. It defines the structure of an API — including endpoints, request/response formats, authentication, and error handling so that both humans and software tools can understand and interact with the API without needing access to the source code.
+**OpenAPI Standard**  
+OpenAPIStandard is a widely adopted specification for describing RESTful APIs in a machine-readable format using JSON or YAML. It defines the structure of an API — including endpoints, request/response formats, authentication, and error handling so that both humans and software tools can understand and interact with the API without needing access to the source code.
 In this booking system project, OpenAPI Standard will play a crucial role in streamlining the development, improved testing and seamless integration of this project.
 
-**Django REST Framework** is a powerful and flexible toolkit built on top of Django for creating Web APIs. It simplifies the process of building RESTful services by providing:  
+**Django REST Framework**  
+Django REST Framework is a powerful and flexible toolkit built on top of Django for creating Web APIs. It simplifies the process of building RESTful services by providing:  
 **Serialization:** *Converts complex data types (like Django models) into JSON and vice versa.*  
 **Authentication & Permissions:** *Built-in support for token-based auth, OAuth, and custom permission classes.*  
 **Browsable API:** *A web interface for testing and interacting with your API.*  
