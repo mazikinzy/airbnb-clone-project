@@ -123,8 +123,9 @@ These measures will collectively ensure that the booking system is resilient aga
 
 # CI/CD Pipeline
 A Continuous Integration and Continuous Delivery/Deployment(CI/CD) pipeline is an automated workflow that helps developers integrate code changes, test them, and deploy software reliably and efficiently.  
-A booking system handles real-time reservations, payments, and user data, so reliability and speed are essential.  
-CI/CD pipelines help by:  
+A booking system handles real-time reservations, payments, and user data, so reliability and speed are essential.
+
+**CI/CD pipelines help by:**  
 Ensuring stability: *Automated tests catch bugs before they reach users.*  
 Speeding up updates: *New features (e.g., calendar views, payment options) can be deployed quickly and safely.*  
 Reducing downtime: *Rollbacks and hotfixes can be applied swiftly if issues arise.*  
