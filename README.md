@@ -1,15 +1,15 @@
-# airbnb-clone-project
+# Airbnb-clone-project
 A booking platform project
 
 
 # Team Roles
-## Backend Developer
+### **Backend Developer**
 A backend developer plays a crucial role in a project by building and maintaining the server-side infrastructure that powers the application.
-## Database Administrator
+### **Database Administrator**
 Responsible for the performance, integrity, and security of the project’s database
-## DevOps Engineer
+### **DevOps Engineer**
 Set up and manage continuous integration and continuous delivery systems to automate testing and deployment of the project.
-## QA Engineer
+### **QA Engineer**
 Ensures that software products are reliable, bug-free, and meet user expectations before they’re released.
 
 # Technology Stack
@@ -50,3 +50,31 @@ Django REST Framework is a powerful and flexible toolkit built on top of Django 
 **Browsable API:** *A web interface for testing and interacting with your API.*  
 **Generic Views & ViewSets:** *Prebuilt logic for common CRUD operations.*  
 **Validation:** *Automatic input validation through serializers.*
+
+**GraphQL**  
+GraphQL is a query language and runtime for APIs that allows clients to request exactly the data they need.  
+In this booking system project, GraphQL will facilitata services like customizable queries, nested data retrieval, real-time updates, and unified data access
+
+### **User Authentication**
+Endpoints: */users/, /users/{user_id}/*  
+Features: *Register new users, authenticate, and manage user profiles.*
+
+### **Property Management**
+Endpoints: */properties/, /properties/{property_id}/*  
+Features: *Create, update, retrieve, and delete property listings.*
+
+### **Booking System**
+Endpoints: */bookings/, /bookings/{booking_id}/*  
+Features: *Make, update, and manage bookings, including check-in and check-out details.*
+
+### **Payment Processing**
+Endpoints: */payments/*  
+Features: *Handle payment transactions related to bookings.*
+
+### **Review System**
+Endpoints: */reviews/, /reviews/{review_id}/*  
+Features: *Post and manage reviews for properties.*
+
+### **Database Optimizations**
+Indexing: *Implement indexes for fast retrieval of frequently accessed data.*  
+Caching: *Use caching strategies to reduce database load and improve performance.*
