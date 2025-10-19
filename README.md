@@ -34,14 +34,14 @@ Automated pipelines for testing and deploying code changes.
 ### **Users**
 Represents customers or property owners.
 
-**Key Fields:**  
+**Key Fields**  
 >*user_id (Primary Key)*  
 *name*  
 *email (unique)*  
 *password_hash*  
 *role (e.g., guest, host, admin)*
 
-**Relationships:**  
+**Relationships**  
 >*A user can own multiple properties (if they are a host).*  
 *A user can make multiple bookings.*  
 *A user can write multiple reviews.*
@@ -63,6 +63,21 @@ Represents hotels, apartments, or rooms available for booking.
 *A property can have multiple reviews.*
 >
 ### **Bookings**
+Represents a reservation made by a user.  
+
+**Key Fields**  
+>*booking_id (Primary Key)*  
+*user_id (Foreign Key → Users)*  
+*room_id (Foreign Key → Rooms)*  
+*check_in_date*  
+*check_out_date*  
+*status (e.g., confirmed, cancelled)*
+>
+**Relationships**  
+>*A booking is made by one user.*  
+*A booking is for one room.*  
+*A booking can have one payment.*
+>
 ### **Reviews**
 ### **Payments**
 
