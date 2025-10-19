@@ -13,26 +13,29 @@ Set up and manage continuous integration and continuous delivery systems to auto
 Ensures that software products are reliable, bug-free, and meet user expectations before they’re released.
 
 # Technology Stack
-### Django
+### **Django**
 A high-level Python web framework used for building the RESTful API.
-### Django REST Framework
+### **Django REST Framework**
 Provides tools for creating and managing RESTful APIs.
-### PostgreSQL
+### **PostgreSQL**
 A powerful relational database used for data storage.
-### GraphQL
+### **GraphQL**
+Allows for flexible and efficient querying of data.
+### **Celery**
+For handling asynchronous tasks such as sending notifications or processing payments.  
+### **Redis**
+Used for caching and session management.
+### **Docker**
+Containerization tool for consistent development and deployment environments.
+### **CI/CD Pipelines**
+Automated pipelines for testing and deploying code changes.
 
 # Database Design
-## Users
-## Properties
-## Bookings
-## Reviews
-## Payments
-Allows for flexible and efficient querying of data.
-### Celery
-For handling asynchronous tasks such as sending notifications or processing payments.
-Redis: Used for caching and session management.
-Docker: Containerization tool for consistent development and deployment environments.
-CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+### **Users**
+### **Properties**
+### **Bookings**
+### **Reviews**
+### **Payments**
 
 # Feature Breakdown
 ### **API Documentation**
