@@ -32,6 +32,20 @@ Automated pipelines for testing and deploying code changes.
 
 # Database Design
 ### **Users**
+Represents customers or property owners.
+
+--- **Key Fields:**  
+*user_id (Primary Key)*  
+*name*  
+*email (unique)*  
+*password_hash*  
+--- *role (e.g., guest, host, admin)*
+
+**Relationships:**  
+*A user can own multiple properties (if they are a host).*
+*A user can make multiple bookings.*
+*A user can write multiple reviews.*
+
 ### **Properties**
 ### **Bookings**
 ### **Reviews**
